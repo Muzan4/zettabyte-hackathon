@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useCrewStore } from '../../store/crewStore';
-import { Pirate, PirateRole } from '../../types';
+import type { Pirate, PirateRole } from '../../types';
 import { X, UserPlus } from 'lucide-react';
 
 const ROLES: PirateRole[] = [

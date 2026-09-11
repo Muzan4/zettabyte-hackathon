@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Pirate } from '../../types';
+import type { Pirate } from '../../types';
 import { applyScurvyToSkills } from '../../utils/scurvyEffects';
 
 interface VitalBarProps {

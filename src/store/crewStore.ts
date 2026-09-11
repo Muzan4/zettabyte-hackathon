@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Pirate, PirateRole, ShipState, HealthFilter, StatusEffect } from '../types';
+import type { Pirate, PirateRole, ShipState, HealthFilter, StatusEffect } from '../types';
 import { LEGENDARY_PIRATES } from '../data/pirates';
 
 interface FilterState {

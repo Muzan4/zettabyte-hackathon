@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { Pirate, PirateRole, StatusEffect } from '../../types';
+import type { Pirate, PirateRole, StatusEffect } from '../../types';
 import { useCrewStore } from '../../store/crewStore';
 import { Shield, Citrus, Trash2, Star, Zap } from 'lucide-react';
 

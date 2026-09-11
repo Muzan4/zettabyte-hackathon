@@ -1,5 +1,5 @@
 import { useCrewStore } from '../../store/crewStore';
-import { PirateRole, HealthFilter } from '../../types';
+import type { PirateRole, HealthFilter } from '../../types';
 import { Search, X } from 'lucide-react';
 
 const ROLES: (PirateRole | 'All')[] = [

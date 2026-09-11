@@ -1,4 +1,4 @@
-import { PirateSkills } from '../types';
+import type { PirateSkills } from '../types';
 
 export interface ScurvyPenalties {
   penalties: Partial<PirateSkills>;

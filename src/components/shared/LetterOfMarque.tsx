@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Printer, Scroll } from 'lucide-react';
-import { RaidSquad, Mission } from '../../types';
+import type { RaidSquad, Mission } from '../../types';
 
 interface Props {
   squad: RaidSquad | null;

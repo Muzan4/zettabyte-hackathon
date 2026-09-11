@@ -1,4 +1,4 @@
-import { Pirate, Mission, RaidSquad, MissionWeights } from '../types';
+import type { Pirate, Mission, RaidSquad, MissionWeights } from '../types';
 
 export function computeReadiness(pirate: Pirate): number {
   const hp = pirate.hp / 100;

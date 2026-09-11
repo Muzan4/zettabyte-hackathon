@@ -1,4 +1,4 @@
-import { Pirate, Mission } from '../types';
+import type { Pirate, Mission } from '../types';
 
 export const LEGENDARY_PIRATES: Pirate[] = [
   {
